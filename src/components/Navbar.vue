@@ -11,11 +11,19 @@
     </ul>
   </nav>
 </nav>
+  <button>
+  </button>
 </template>
 
 <script>
+import from "@/components/HelloWorld";"./@components/Helloworl.vue "
 export default {
-  name: "Navbar"
+  name: "Navbar",
+
+
+
+
+
 }
 </script>
 

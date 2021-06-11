@@ -2,6 +2,20 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
 
+
+    <nav>
+      <nav class="navbar navbar-inverse">
+        <ul class="nav menu">
+          <li>
+            <router-link to="/about" @click.native="closeNavBarFromChild">About</router-link>
+          </li>
+          <li class="hidden-lg hidden-md">
+            <router-link to="/product" @click.native="closeNavBarFromChild">Product</router-link>
+          </li>
+        </ul>
+      </nav>
+    </nav>
+
     <HelloWorld msg="Welcome "/>
   </div>
 </template>
@@ -18,6 +32,8 @@ export default {
 </script>
 
 <style>
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,5 +41,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body{
+  background-color: #42b983;
 }
 </style>
