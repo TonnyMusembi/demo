@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="./assets/logo.png">
 
 
-    <nav>
+    <nav class="centre">
       <nav class="navbar navbar-inverse">
         <ul class="nav menu">
           <li>
@@ -43,6 +43,6 @@ export default {
   margin-top: 60px;
 }
 body{
-  background-color: #42b983;
+  background-color: bisque;
 }
 </style>
