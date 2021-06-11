@@ -11,16 +11,13 @@
     </ul>
   </nav>
 </nav>
-  <button>
-  </button>
+  <button class="allin" @click="click">Click to select 1m in all childs</button>
 </template>
 
 <script>
-import from "@/components/HelloWorld";"./@components/Helloworl.vue "
+
 export default {
   name: "Navbar",
-
-
 
 
 

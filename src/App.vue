@@ -15,6 +15,8 @@
         </ul>
       </nav>
     </nav>
+    <button class="allin" @click="click" >Click to select </button>
+
 
     <HelloWorld msg="Welcome "/>
   </div>
