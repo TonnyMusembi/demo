@@ -15,16 +15,13 @@
         </ul>
       </nav>
     </nav>
-    <button class="allin" @click="click" >Click to select </button>
-
+    <button class="allin" @click="click" >Click to select </button><a href="##">load</a>
 
     <HelloWorld msg="Welcome "/>
   </div>
 </template>
-
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
   components: {
