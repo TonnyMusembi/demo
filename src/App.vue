@@ -16,6 +16,7 @@
       </nav>
     </nav>
     <button class="allin" @click="click" >Click to select </button><a href="##">load</a>
+    <button> @click="click"</button>
 
     <HelloWorld msg="Welcome "/>
   </div>
@@ -43,5 +44,11 @@ export default {
 }
 body{
   background-color: bisque;
+
+}
+button{
+ padding: initial;
+  color: aqua;
+
 }
 </style>
